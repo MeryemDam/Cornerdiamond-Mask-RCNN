@@ -38,7 +38,7 @@ from mrcnn.visualize import display_instances
 import matplotlib.pyplot as plt
 
 # Root directory of the project
-ROOT_DIR = os.path.abspath("../")
+ROOT_DIR = os.path.abspath("./")
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
@@ -50,7 +50,7 @@ COCO_WEIGHTS_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
 
 # Directory to save logs and model checkpoints, if not provided
 # through the command line argument --logs
-DEFAULT_LOGS_DIR = os.path.join(ROOT_DIR, "dammomer/logs")
+DEFAULT_LOGS_DIR = os.path.join(ROOT_DIR, "logs")
 
 ############################################################
 #  Configurations
